@@ -1,0 +1,10 @@
+Package: grImport2
+Version: 0.1-2
+Depends: R (>= 2.12.0)
+Imports: methods, grid, XML, png, jpeg, base64enc
+Suggests: gridSVG, grConvert, grImport, lattice, cluster, colorspace, survival
+Title: Importing Vector Graphics
+Authors@R: person("Simon", "Potter", role = c("aut", "cre"),
+                  email = "simon.potter@auckland.ac.nz")
+Description: Functions for importing, and drawing vector images in R plots.
+License: GPL (>= 2)

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by grConvert v0.1-0 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200pt" height="600pt" viewBox="0 0 1200 600" version="1.1">
+<defs>
+<clipPath id="clip1">
+  <path d="M 0 0 L 525 0 L 525 300 L 0 300 Z "/>
+</clipPath>
+</defs>
+<g id="surface1">
+<rect x="0" y="0" width="1200" height="600" style="fill:rgb(81.176471%,7.843137%,16.862745%);fill-opacity:1;stroke:none;"/>
+<path style="fill:none;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M -15 -6.5625 L 15 -6.5625 " transform="matrix(40,0,0,40,600,300)"/>
+<path style="fill:none;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,14.117647%,49.019608%);stroke-opacity:1;stroke-miterlimit:4;" d="M -15 -2.8125 L 15 -2.8125 " transform="matrix(40,0,0,40,600,300)"/>
+<path style="fill:none;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M -15 -0.9375 L 15 -0.9375 " transform="matrix(40,0,0,40,600,300)"/>
+<path style="fill:none;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,14.117647%,49.019608%);stroke-opacity:1;stroke-miterlimit:4;" d="M -15 -2.8125 L 15 -2.8125 " transform="matrix(40,0,0,40,600,525)"/>
+<path style="fill:none;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M -15 -0.9375 L 15 -0.9375 " transform="matrix(40,0,0,40,600,525)"/>
+<g clip-path="url(#clip1)" clip-rule="nonzero">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,14.117647%,49.019608%);fill-opacity:1;" d="M 582.5 150 C 582.5 326.730469 439.230469 470 262.5 470 C 85.769531 470 -57.5 326.730469 -57.5 150 C -57.5 -26.730469 85.769531 -170 262.5 -170 C 439.230469 -170 582.5 -26.730469 582.5 150 Z "/>
+<path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M -17.5 -10 L 17.5 10 M -17.5 10 L 17.5 -10 " transform="matrix(20,0,0,20,262.5,150)"/>
+<path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(81.176471%,7.843137%,16.862745%);stroke-opacity:1;stroke-miterlimit:4;" d="M -17.5 -10 L 17.5 10 M -17.5 10 L 17.5 -10 " transform="matrix(20,0,0,20,262.5,150)"/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 262.5 150 L 612.5 350 L 567.5 350 L 217.5 150 M 262.5 150 L 612.5 -50 L 657.5 -50 L 307.5 150 M 262.5 150 L -87.5 350 L -132.5 350 L 217.5 150 M 262.5 150 L -87.5 -50 L -42.5 -50 L 307.5 150 "/>
+<path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M -17.5 0 L 17.5 0 M 0 -10 L 0 10 " transform="matrix(20,0,0,20,262.5,150)"/>
+<path style="fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(81.176471%,7.843137%,16.862745%);stroke-opacity:1;stroke-miterlimit:4;" d="M -17.5 0 L 17.5 0 M 0 -10 L 0 10 " transform="matrix(20,0,0,20,262.5,150)"/>
+</g>
+</g>
+</svg>
