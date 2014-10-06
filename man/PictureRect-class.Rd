@@ -28,6 +28,11 @@
       Object of class \code{"numeric"}. A vector of length one
       representing the height of the rectangle.
     }
+    \item{\code{angle}:}{
+      Object of class \code{"numeric"}. A vector of length one
+      representing the angle applied to the image. Corresponds to grid's
+      viewport angles.
+    }
     \item{\code{gp}:}{
       Object of class \code{"gpar"}. A grid \code{gpar} object.
     }

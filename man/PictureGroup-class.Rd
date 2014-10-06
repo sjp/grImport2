@@ -3,6 +3,7 @@
 \alias{PictureGroup-class}
 \alias{[,PictureGroup-method}
 \alias{[[,PictureGroup-method}
+\alias{applyTransform,PictureGroup,matrix-method}
 \alias{grobify,PictureGroup-method}
 \title{Class \code{"PictureGroup"}}
 \description{
@@ -47,6 +48,12 @@
       \code{signature(x = "PictureGroup")}: extract a single piece of a
       picture group. Each piece will be an object of class
       \code{"PictureContent"}.
+    }
+    \item{applyTransform}{
+      \code{signature(object = "PictureGroup", tm = "matrix")}:
+      transforms the locations described by contents of the group object
+      by a 3x3 transformation matrix and returns a \code{"PictureGroup"}
+      object whose children have had locations transformed by the matrix.
     }
     \item{grobify}{
       \code{signature(object = "PictureGroup")}: convert to a grid grob

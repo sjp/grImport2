@@ -34,6 +34,11 @@
       intended to be created directly, but as a result of calling the
       \code{jpeg} and \code{png} packages \code{read*()} functions.
     }
+    \item{\code{angle}:}{
+      Object of class \code{"numeric"}. A vector of length one
+      representing the angle applied to the image. Corresponds to grid's
+      viewport angles.
+    }
     \item{\code{maskRef}:}{
       Object of class \code{"ANY"}. A character reference to an object
       that will mask this image. Not intended to be used directly (so

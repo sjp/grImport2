@@ -1,6 +1,7 @@
 \name{PicturePattern-class}
 \docType{class}
 \alias{PicturePattern-class}
+\alias{applyTransform,PicturePattern,matrix-method}
 \alias{grobify,PicturePattern-method}
 
 \title{Class \code{"PicturePattern"}}
@@ -28,6 +29,11 @@
       Object of class \code{"numeric"}. A vector of length one
       representing the height of the pattern.
     }
+    \item{\code{angle}:}{
+      Object of class \code{"numeric"}. A vector of length one
+      representing the angle applied to the image. Corresponds to grid's
+      viewport angles.
+    }
     \item{\code{definition}:}{
       Object of class \code{"list"}. A list of \code{"PictureContent"}
       objects that define the content of the pattern "tile".
@@ -39,6 +45,12 @@
 }
 \section{Methods}{
   \describe{
+    \item{applyTransform}{
+      \code{signature(object = "PicturePattern", tm = "matrix")}:
+      transforms the locations described by the pattern object by a
+      3x3 transformation matrix and returns a \code{"PicturePattern"}
+      object with the transformed locations.
+    }
     \item{grobify}{\code{signature(object = "PicturePattern")}:
       convert the pattern description into a gridSVG pattern
       object. Useful only in conjunction with the gridSVG package. The

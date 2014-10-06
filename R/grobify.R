@@ -88,6 +88,8 @@ setMethod("grobify",
               # gpar settings are *ignored*.
               # IF the PictureImage has an angle, we need to generate
               # a viewport to draw the raster within (to perform the rotation)
+              if (!length(object@angle))
+                  object@angle <- 0
               if (object@angle != 0) {
                   r <- rasterGrob(object@image, 
                                   x=0, y=1, width=1, height=-1,
@@ -173,6 +175,8 @@ setMethod("grobify",
               object@gp <- gpFUN(object@gp)
               # IF the PictureRect has an angle, we need to generate
               # a viewport to draw the rect within (to perform the rotation)
+              if (!length(object@angle))
+                  object@angle <- 0
               if (object@angle != 0) {
                   grob <- picRectGrob(.5, .5, 1, 1, "centre", 
                                       object@gp, "npc",

@@ -102,7 +102,7 @@ bp
 /bg { 0.8118 0.0784 0.1686 srgb } def
 0.00 324.00 432.00 -216.00 r p2
 1 1 1 srgb
-27.00 setlinewidth
+38.18 setlinewidth
 [] 0 setdash
 0 setlinecap
 0 setlinejoin
@@ -297,7 +297,7 @@ cp
 252.00 144.00 l
 cp
 p2
-21.60 setlinewidth
+30.55 setlinewidth
 [] 0 setdash
 np
 0.00 324.00 m
@@ -316,7 +316,7 @@ cp
 cp
 p2
 0.8118 0.0784 0.1686 srgb
-14.40 setlinewidth
+20.36 setlinewidth
 [] 0 setdash
 np
 0.00 324.00 m
@@ -359,7 +359,7 @@ cp
 cp
 p2
 1 1 1 srgb
-36.00 setlinewidth
+50.91 setlinewidth
 [] 0 setdash
 np
 0.00 270.00 m
@@ -378,7 +378,7 @@ cp
 cp
 p2
 0.8118 0.0784 0.1686 srgb
-21.60 setlinewidth
+30.55 setlinewidth
 [] 0 setdash
 np
 0.00 270.00 m

@@ -107,7 +107,7 @@ np
 -216.00 0 l
 cp p2
 0 0 0 srgb
-0.64 setlinewidth
+0.91 setlinewidth
 [] 0 setdash
 1 setlinecap
 1 setlinejoin
