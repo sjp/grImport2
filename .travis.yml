@@ -1,22 +1,27 @@
-language: c
+language: r
 
-before_install:
-  - curl -OL http://raw.github.com/craigcitro/r-travis/master/scripts/travis-tool.sh
-  - chmod 755 ./travis-tool.sh
-  - ./travis-tool.sh bootstrap
-  - sudo apt-get install -qq ghostscript
+warnings_as_errors: true
 
-install:
-  - ./travis-tool.sh r_install gridSVG grImport lattice cluster colorspace survival
-  - ./travis-tool.sh r_binary_install XML png jpeg base64enc
-  - ./travis-tool.sh github_package sjp/grConvert
-  - ./travis-tool.sh install_deps
+apt_packages:
+  - ghostscript
 
-script:
-  - ./travis-tool.sh run_tests
+r_binary_packages:
+  - XML
+  - png
+  - jpeg
+  - base64enc
+  - testthat
 
-after_failure:
-  - ./travis-tool.sh dump_logs
+r_packages:
+  - gridSVG
+  - grImport
+  - lattice
+  - cluster
+  - colorspace
+  - survival
+
+r_github_packages:
+  - sjp/grConvert
 
 notifications:
   email:
